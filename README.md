@@ -1,16 +1,24 @@
 # Hi, I'm Kavyanjali 👋
-AI & Machine Learning Student | Python Developer | Building Deployable Intelligent Tools
+
+🎯 Aspiring AI / Machine Learning & Data Analytics Engineer  
+💡 Focus: Applied AI, Intelligent Systems, Data Insights  
+📊 I build deployed analytics dashboards and decision-support tools  
 
 ## 🚀 Featured Projects
-🔹 CSV Data Analyzer – Automated dataset insights generator  
-🔹 Career Path Simulator – Decision-support career recommendation system  
-🔹 Customer Segmentation ML – Behavioral clustering pipeline  
+
+### 📌 CSV Data Analyzer Pro
+A deployed Streamlit analytics dashboard for dataset profiling, preprocessing, and insight generation.
+
+🔗 https://github.com/karankavyanjali77-sys/csv-data-analyzer
+
+### 📌 Career Path Simulator
+An intelligent decision-support system simulating structured career progression paths.
+
+🔗 https://github.com/karankavyanjali77-sys/career-path-simulator
 
 ## 🧠 Skills
-Python • Machine Learning • Data Analysis • Streamlit • Pandas • Scikit-learn • Visualization • Git
+Python • Pandas • NumPy • Streamlit • Data Analysis • ML Workflow Concepts
 
-## 📌 Currently Learning
-Deep Learning • NLP • Production ML Systems
+---
 
-## 🔗 Links
-LinkedIn: https://linkedin.com/in/kavyanjali-karan-a69b60371
+⭐ Always building real-world AI applications
