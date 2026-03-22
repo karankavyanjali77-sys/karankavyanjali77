@@ -1,116 +1,24 @@
-# Hi, I'm Kavyanjali 👋  
+# 💫 About Me:
+- 🔭 I’m currently working on: Improving my RAG-based PDF chatbot (accuracy, latency, and real-world usability)<br><br>- 🤝 I’m looking to collaborate on: AI/ML projects, especially involving LLMs, data analytics, and real-world problem solving<br><br>- 🆘 I’m looking for help with: Scaling AI applications, optimizing model performance, and deploying on cloud platforms (AWS/Azure)<br><br>- 🌱 I’m currently learning: LLMs, vector databases, advanced ML concepts, and system design for AI applications<br><br>- 💬 Ask me about: Python, data analysis, Streamlit apps, and building end-to-end AI projects<br><br>- ⚡ Fun fact: I treat learning AI like a game 🎮 — I level up by building real-world projects
 
-🚀 **Aspiring AI / ML & Data Analytics Engineer**  
-💡 Building real-world AI systems & data-driven applications  
-📊 Focus: Applied AI • RAG Systems • Intelligent Tools  
 
----
+## 🌐 Socials:
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/kavyanjali-karan-a69b60371) [![Mastodon](https://img.shields.io/badge/-MASTODON-%232B90D9?logo=mastodon&logoColor=white)](https://mastodon.social/@Kavyanjali Karan) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:karankavyanjali77@gmail.com) 
 
-## 🧠 About Me  
+# 💻 Tech Stack:
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white) ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white) ![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=for-the-badge&logo=go&logoColor=white) ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![PowerShell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white) ![Bash Script](https://img.shields.io/badge/bash_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Windows Terminal](https://img.shields.io/badge/Windows%20Terminal-%234D4D4D.svg?style=for-the-badge&logo=windows-terminal&logoColor=white) ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white) ![Google Cloud](https://img.shields.io/badge/GoogleCloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![Angular.js](https://img.shields.io/badge/angular.js-%23E23237.svg?style=for-the-badge&logo=angularjs&logoColor=white) ![Django](https://img.shields.io/badge/django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB) ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Flask](https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white) ![jQuery](https://img.shields.io/badge/jquery-%230769AD.svg?style=for-the-badge&logo=jquery&logoColor=white) ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Streamlit](https://img.shields.io/badge/Streamlit-%23FE4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Adobe](https://img.shields.io/badge/adobe-%23FF0000.svg?style=for-the-badge&logo=adobe&logoColor=white) ![Adobe Acrobat Reader](https://img.shields.io/badge/Adobe%20Acrobat%20Reader-EC1C24.svg?style=for-the-badge&logo=Adobe%20Acrobat%20Reader&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white) ![Scipy](https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black) ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white) ![Power Bi](https://img.shields.io/badge/power_bi-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+# 📊 GitHub Stats:
+![](https://github-readme-stats.vercel.app/api?username=karankavyanjali77-sys&theme=merko&hide_border=false&include_all_commits=true&count_private=true)<br/>
+![](https://nirzak-streak-stats.vercel.app/?user=karankavyanjali77-sys&theme=merko&hide_border=false)<br/>
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=karankavyanjali77-sys&theme=merko&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
-- 🎓 B.Tech CSE (2027)  
-- 🔍 Exploring LLMs, RAG pipelines & scalable AI systems  
-- ⚡ Build → Deploy → Improve mindset  
-- 🌱 Currently improving AI performance & real-world usability  
+### ✍️ Random Dev Quote
+![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
 
----
-
-## 🚀 Featured Projects  
-
-### 🤖 RAG-based PDF Chatbot *(Flagship)*  
-- Chat with PDFs using natural language  
-- Embeddings + vector search + LLM  
-- End-to-end pipeline built  
-- Improving accuracy & latency  
-
-🔗 https://github.com/karankavyanjali77-sys/ai-pdf-rag-chatbot  
+### 🔝 Top Contributed Repo
+![](https://github-contributor-stats.vercel.app/api?username=karankavyanjali77-sys&limit=5&theme=dark&combine_all_yearly_contributions=true)
 
 ---
+[![](https://visitcount.itsvg.in/api?id=karankavyanjali77-sys&icon=0&color=0)](https://visitcount.itsvg.in)
 
-### 📊 CSV Data Analyzer Pro  
-- Data cleaning, preprocessing & insights  
-- Interactive Streamlit dashboard  
-
-🔗 https://github.com/karankavyanjali77-sys/csv-data-analyzer  
-
----
-
-### 🧩 Customer Segmentation (End-to-End)  
-- Data preprocessing & feature engineering  
-- Clustering models for segmentation  
-- Business insights for decision-making  
-
-🔗 https://github.com/karankavyanjali77-sys/customer-segmentation-ml  
-
----
-
-### 🎯 Career Path Simulator  
-- Simulates structured career paths  
-- Data-driven recommendations  
-- Decision-support system  
-
-🔗 https://github.com/karankavyanjali77-sys/career-path-simulator  
-
----
-
-## 🛠 Tech Stack  
-
-**Languages & Tools:**  
-Python • Pandas • NumPy • Streamlit  
-
-**Core Skills:**  
-Machine Learning • Data Analysis • Applied AI • ML Pipelines  
-
----
-
-## 📈 What Makes Me Different  
-
-✔ I build deployed applications, not just notebooks  
-✔ I focus on solving real-world problems  
-✔ I continuously improve and optimize my systems  
-
----
-
-## 🌱 Currently Working On  
-
-- 🚀 Improving RAG chatbot (accuracy, latency, edge cases)  
-- 🧠 Learning LLMs, vector databases & scalable AI systems  
-
----
-
-## 🤝 Open to  
-
-- Collaborating on AI/ML projects  
-- Internships in AI, ML, or Data Analytics  
-- Open-source contributions  
-
----
-
-## 💬 Ask Me About  
-
-Python • Data Analysis • Streamlit • AI Projects • ML Basics  
-
----
-
-## ⚡ Fun Fact  
-
-I treat learning AI like a game 🎮 — I level up by building real-world projects  
-
----
-
-## 📫 Connect With Me  
-
-- 💼 LinkedIn: https://www.linkedin.com/in/kavyanjali-karan-a69b60371/  
-- 📧 Email: karankavyanjali77@gmail.com  
-
----
-
-## 📊 GitHub Stats  
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=karankavyanjali77-sys&show_icons=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=karankavyanjali77-sys&layout=compact)
-
----
-
-⭐ **"I don’t just learn AI — I build it."**
+<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
