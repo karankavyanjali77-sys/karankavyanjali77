@@ -19,7 +19,7 @@ I'm a Computer Science undergraduate at ITER, SOA University (graduating 2027), 
 
 My work spans RAG-based LLM systems, ML pipelines, business intelligence dashboards, and funnel analytics — all deployed end-to-end.
 
-- 🔭 Currently refining my **RAG PDF Chatbot** — improving retrieval accuracy and hardening for production
+- 🔭 Currently building **Churn Autopsy** — a production-style churn prediction system with a FastAPI inference layer and SHAP explainability
 - 🧠 Exploring **LLMs, vector databases, and agentic AI architectures**
 - 📊 Building analytics tools that translate raw data into business decisions
 - 📍 Based in **India** — open to Data Analyst / Junior Data Scientist internships & fresher roles (India & International)
@@ -39,6 +39,20 @@ My work spans RAG-based LLM systems, ML pipelines, business intelligence dashboa
 
 ## 🚀 Featured Projects
 
+### 🔬 [Churn Autopsy](https://github.com/karankavyanjali77-sys/churn-autopsy)
+> *Why customers leave — predicted before they do*
+
+**Stack:** `Python` · `Scikit-learn` · `SMOTE` · `SHAP` · `FastAPI` · `Streamlit` · `Joblib` · `Pydantic`
+
+**Highlights:**
+- 🧠 Trained Logistic Regression vs Random Forest vs Gradient Boosting — best model selected via 5-fold stratified CV (ROC-AUC: **0.744**)
+- ⚖️ SMOTE oversampling inside the pipeline to handle 33% class imbalance — test set never touched
+- 🔌 Served predictions via **FastAPI REST endpoint** (`POST /predict`) returning churn probability + top-3 SHAP explanations + business retention action per customer
+- 📊 Interactive Streamlit dashboard consuming the API — risk banner, probability bar, SHAP reason cards, recommended intervention
+- 🏗️ Production-style separation: `src/train.py` → `models/churn_pipeline.pkl` → `api/main.py` → `app.py`
+
+---
+
 ### 🤖 [RAG PDF Chatbot](https://github.com/karankavyanjali77-sys/ai-pdf-rag-chatbot)
 > *Ask questions over any PDF in natural language — powered by a full RAG pipeline*
 
@@ -48,7 +62,7 @@ My work spans RAG-based LLM systems, ML pipelines, business intelligence dashboa
 - 📄 Multi-PDF ingestion with semantic chunking
 - 🔍 FAISS vector store for fast similarity search
 - 💬 Context-aware Q&A with source-page citation
-- ⚡ Groq LLM for low-latency inference
+- ⚡ Groq LLM for low-latency inference — answers across 100-page documents in under 5 seconds
 - 🖥️ Deployed chat-style UI via Streamlit
 
 ---
@@ -59,9 +73,9 @@ My work spans RAG-based LLM systems, ML pipelines, business intelligence dashboa
 **Stack:** `Python` · `Scikit-learn` · `KMeans` · `Pandas` · `Joblib` · `Streamlit` · `Matplotlib`
 
 **Highlights:**
-- 🧮 StandardScaler + KMeans pipeline with Joblib model persistence
-- 📈 Streamlit dashboard serving real-time segment predictions for 200+ records
-- 💡 Auto-generates segment-specific marketing recommendations
+- 🧮 StandardScaler + KMeans (5 clusters) pipeline with Joblib model persistence — iterated across 72 commits
+- 📈 Named business profiles: VIP · Upsell Targets · Retention Risk · Budget Loyalists · Discount Seekers
+- 💡 Dashboard auto-generates segment-specific marketing recommendations at prediction time
 - 📥 Downloadable CSV prediction reports
 
 ---
@@ -72,9 +86,9 @@ My work spans RAG-based LLM systems, ML pipelines, business intelligence dashboa
 **Stack:** `Python` · `Pandas` · `Seaborn` · `Plotly` · `Jupyter Notebooks`
 
 **Highlights:**
-- 📋 76.1% of employees reported a mental health condition
-- 🚫 51.1% lacked access to employer mental health resources
-- 📝 Findings structured as a narrative HR policy recommendation brief
+- 📋 76.1% of employees reported a mental health condition; 51.1% lacked employer resources
+- 📉 Stress rates highest in Finance (35.6%), Healthcare (35.3%), Education (34.5%)
+- 📝 Findings structured as a 4-recommendation HR policy brief written for a non-analytical audience
 
 ---
 
@@ -84,21 +98,21 @@ My work spans RAG-based LLM systems, ML pipelines, business intelligence dashboa
 **Stack:** `Python` · `Pandas` · `Plotly`
 
 **Highlights:**
-- 🔄 Models Awareness → Activation → Retention → Revenue funnel
-- 📉 Surfaces highest-churn conversion point for product team prioritisation
-- 👥 Cohort-level growth metrics for retention strategy
+- 📉 63.7% of users dropped at Site Visit → Sign-Up — identified as the single highest-leverage intervention point
+- 📱 Mobile conversion (0.6%) trailed desktop (4.2%) by 3.6 percentage points — representing **$8,828 in recoverable monthly revenue**
+- 📊 Output structured as a one-page prioritisation brief written for a product manager
 
 ---
 
 ### 🛒 [E-Commerce Sales Analytics Dashboard](https://github.com/karankavyanjali77-sys/ecommerce_analytics)
 > *Revenue seasonality, top-SKU identification, and regional patterns*
 
-**Stack:** `Python` · `Pandas` · `Plotly`
+**Stack:** `Python` · `Pandas` · `Plotly` · `SQL`
 
 **Highlights:**
-- 📦 Identified peak revenue periods and top-margin SKUs across 8 categories
+- 📦 SQL window functions and CTEs to identify top-margin SKUs driving disproportionate returns across 8 categories
 - 🗺️ Regional revenue pattern analysis via interactive Plotly dashboards
-- 💰 Findings translated into pricing and inventory recommendations
+- 💰 Monthly trend and category-mix views structured for a category manager audience
 
 ---
 
@@ -108,19 +122,21 @@ My work spans RAG-based LLM systems, ML pipelines, business intelligence dashboa
 **Stack:** `Python` · `Pandas` · `Streamlit` · `Plotly`
 
 **Highlights:**
-- 🔍 Automated missing-value detection and column-level statistics
+- 🔍 Flags implicit nulls, mixed column types, and silent zero-inflation — anomalies visual inspection misses
 - 📊 One-click stakeholder-ready Excel/CSV report generation
-- ⏱️ Reduces manual preprocessing time by approximately 60%
+- ⏱️ Reduces a 30+ minute manual profiling process to a single file upload
 
 ---
 
 ## 🛠️ Tech Stack
 
-### AI & GenAI
+### AI & Machine Learning
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
 ![FAISS](https://img.shields.io/badge/FAISS-0467DF?style=flat-square&logo=meta&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![SHAP](https://img.shields.io/badge/SHAP-8B0000?style=flat-square&logo=python&logoColor=white)
 
 ### Data & Analytics
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
@@ -135,7 +151,7 @@ My work spans RAG-based LLM systems, ML pipelines, business intelligence dashboa
 ![Tableau](https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white)
 ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white)
 
-### Tools
+### Tools & Cloud
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 ![VS Code](https://img.shields.io/badge/VS%20Code-007ACC?style=flat-square&logo=visualstudiocode&logoColor=white)
@@ -164,17 +180,18 @@ My work spans RAG-based LLM systems, ML pipelines, business intelligence dashboa
 
 | Strength | Evidence |
 |---|---|
-| **Ships complete systems** | RAG chatbot has ingestion, retrieval, generation, and UI layers — all connected |
-| **Translates data into decisions** | Mental Health EDA → HR policy brief; E-Commerce analysis → pricing recommendations |
+| **Ships production-style systems** | Churn Autopsy: training pipeline → REST API → dashboard — 3 independent layers |
+| **Explains ML decisions** | SHAP per-customer explanations — not just global feature importance |
+| **Translates data into decisions** | Mental Health EDA → HR policy brief; Funnel tool → $8,828 revenue opportunity identified |
 | **Selected by global organisations** | McKinsey · Google · Guidewire · L&T Technology Services |
-| **Builds for real users** | All apps have clean Streamlit UIs designed for non-technical users |
-| **End-to-end ML deployment** | Scikit-learn pipeline → Joblib persistence → Streamlit dashboard |
+| **Builds for real users** | All deployed apps have clean UIs designed for non-technical audiences |
+| **End-to-end ML engineering** | train.py → .pkl → FastAPI endpoint → Streamlit UI |
 
 ---
 
 ## 📬 Let's Connect
 
-Actively seeking **Data Analyst / Junior Data Scientist** internships and fresher roles — open to India and international opportunities.
+Actively seeking **Data Analyst / Junior Data Scientist / ML Engineer** internships and fresher roles — open to India and international opportunities.
 
 [![LinkedIn](https://img.shields.io/badge/Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/kavyanjali-karan)
 [![Email](https://img.shields.io/badge/Send%20an%20Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:karankavyanjali77@gmail.com)
